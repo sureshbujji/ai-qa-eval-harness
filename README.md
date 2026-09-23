@@ -1,6 +1,6 @@
 # AI QA Evaluation Harness
 
-[![eval-gate](https://github.com/sureshbujji/Sureshbujji/actions/workflows/eval-gate.yml/badge.svg)](https://github.com/sureshbujji/Sureshbujji/actions/workflows/eval-gate.yml)
+[![eval-gate](https://github.com/sureshbujji/ai-qa-eval-harness/actions/workflows/eval-gate.yml/badge.svg)](https://github.com/sureshbujji/ai-qa-eval-harness/actions/workflows/eval-gate.yml)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 
 A lightweight, LLM-as-judge evaluation harness for AI systems — the kind of release-gate tooling I run in CI to keep AI defects from escaping to production.
@@ -19,7 +19,7 @@ golden datasets → LLM-as-judge → CI gates → production monitoring
 ## Quickstart
 
 ```bash
-git clone https://github.com/sureshbujji/Sureshbujji.git
+git clone https://github.com/sureshbujji/ai-qa-eval-harness.git
 cd ai-qa-eval-harness
 pip install -r requirements.txt
 
