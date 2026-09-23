@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Env & secrets — never commit keys
+.env
+.env.*
+
+# Reports (regenerated each run)
+reports/eval_report.json
+reports/eval_summary.md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
